@@ -1,0 +1,66 @@
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    background-color: #331832;
+    color: #FDF0D5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.listFormatter{
+    list-style:none;
+    display: flex;
+    gap: 40px;
+}
+
+li {
+    cursor: pointer;
+}
+
+.active
+{
+color:#c6d8d3;
+text-decoration:none;
+font-weight:500;
+}
+
+.NavBarLogo
+{
+    height: 60px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .NavBarLogo{
+        height:40px;
+        width: auto;
+    }
+
+    .navBar{
+        padding: 5px 15px;
+    }
+
+
+}
+@media only screen and (max-width: 450px) {
+    .NavBarLogo{
+        height:40px;
+        width: auto;
+    }
+
+    .navBar{
+        padding: 5px 10px;
+        font-size: .8em;
+    }
+
+    .listFormatter{
+        gap: 15px;
+    }
+
+}

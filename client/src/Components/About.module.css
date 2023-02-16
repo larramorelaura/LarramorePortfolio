@@ -1,0 +1,66 @@
+.about
+{
+    width: 100%;
+    height: 100vh;
+    background-color:#FDF0D5;
+    padding-top: 70px;
+}
+
+.aboutLogo
+{
+    height: 60px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.aboutHeader
+{
+    color:#331832;
+    
+}
+
+.aboutDescription
+{
+    text-align:justify;
+    width:50%;
+    margin: 10px auto;
+    padding:0 80px;
+    color:#331832;
+    font-size: 1.1em;
+}
+
+.profilePic img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1600px) {
+    .forScreenSize {
+        display:flex;
+        align-items:center;
+    }
+
+    .profilePic  {
+        height: 400px;
+        width:auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .forScreenSize{
+        display: block;
+    }
+    .aboutDescription
+    {
+        width:100%;
+        padding:0 40px;
+    }
+    .profilePic  {
+        height: 200px;
+        width:auto;
+    }
+    .about{
+        padding-top:90px;
+    }
+}

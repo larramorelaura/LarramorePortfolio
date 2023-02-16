@@ -1,0 +1,71 @@
+.demoContainer
+{
+    padding-top:60px;
+    background-color: #c6d8d3;
+    width:100%;
+}
+
+.demoVid
+{
+    height: 300px;
+    width: auto;
+    margin-top:20px;
+}
+
+.projectContainer
+{
+    /* padding: 90px; */
+    display:flex;
+    justify-content:space-around;
+    gap:90px;
+    padding:90px 90px 40px 90px;
+}
+
+.projectDescription
+{
+    text-align: start;
+    color: #331832;
+}
+
+.demoButton
+{
+    background-color: #D81E5B;
+    color: #c6d8d3;
+    height: 50px;
+    width: auto;
+    padding: 0 15px;
+    font-size: 1.3em;
+    font-weight:600;
+    border: none;
+    border-radius: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .projectContainer {
+        display: block;
+        padding-top: 10px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .demoVid{
+        width: 300px;
+        height:auto;
+    }
+    .projectContainer{
+        padding: 10px 55px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .demoVid{
+        width:200px;
+        height:auto;
+    }
+
+
+}

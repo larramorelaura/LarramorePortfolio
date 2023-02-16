@@ -1,0 +1,15 @@
+.upArrow
+{
+    height: 50px;
+    width: auto;
+}
+
+.navUp
+{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #F0544F;
+    cursor: pointer;
+}
+

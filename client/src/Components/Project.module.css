@@ -1,0 +1,47 @@
+.project
+{
+    background-image: linear-gradient( to bottom right, #C6D8D3 35%, #FDF0D5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-top:60px;
+}
+
+.projectBody
+{
+    width:25%;
+}
+
+.description
+{
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .project{
+        display: block;
+    }
+    .projectBody
+    {
+        width:80%;
+        padding:0 40px;
+    }
+    .smallScreen  {
+        height: 400px;
+        width:auto;
+    }
+    .project{
+        padding-top:90px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .smallScreen{
+        width:250px;
+        height:auto;
+    }
+
+
+}

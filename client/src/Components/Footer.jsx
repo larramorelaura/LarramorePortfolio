@@ -8,7 +8,7 @@ const Footer = () => {
         <Link to="home" spy={true} smooth={true} 
         duration={500}>
             <div class={styles.navUp}>
-                <img class={styles.upArrow}  src={UpArrow}/>
+                <img class={styles.upArrow}  src={UpArrow} alt="To the top"/>
                 <p>To the top</p>
             </div>
         </Link>

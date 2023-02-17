@@ -12,7 +12,7 @@ const Project = () => {
                     <p>My portfolio includes various technologies, frameworks, tools, and languages. Demos are included below as well as detailed descriptions of the techonologies utilized and a link to the code on GitHub.</p>
                 </div>
             </div>
-            <img class={styles.smallScreen} src={Python}/>
+            <img class={styles.smallScreen} src={Python} alt="Data Web of Languages"/>
         </div>
     
   )

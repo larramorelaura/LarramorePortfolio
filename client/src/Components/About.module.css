@@ -4,6 +4,7 @@
     min-height: 100vh;
     background-color:#FDF0D5;
     padding-top: 70px;
+    padding-bottom: 15px;
 }
 
 .aboutLogo
@@ -19,11 +20,14 @@
     
 }
 
+.aboutDescription p{
+    margin:0
+}
 .aboutDescription
 {
     text-align:justify;
     width:50%;
-    margin: 10px auto;
+    margin: 0 auto;
     padding:0 80px;
     color:#331832;
     font-size: 1.1em;

@@ -19,7 +19,9 @@ const About = () => {
                 <img className={styles.profilePic} src={profile} alt="Laura Larramore"/>
             </div>
             <div className={styles.aboutDescription}>
-                <p>I'm a recently certified full stack developer with a background in education and technology support. Skilled in Python, JavaScript, and web frameworks like Flask and React, I've built apps that leverage technologies like Google Vision AI and Socket.io to deliver engaging, streamlined user experiences. I'm excited to bring my diverse skills to a software development role and continue growing in the field.</p>
+                <p>Hello there! My name is Laura, and I'm a software developer who loves to create awesome things with code. When I'm not building applications, you can usually find me playing video games or spending time outdoors with my family and my three furry friends - a corgi and two rescue dogs.
+
+As a certified full stack developer, I'm always looking for new challenges and opportunities to grow in my craft. But more than that, I'm a people person who loves collaborating with others and finding creative solutions to complex problems. If you would like to collaborate on something, feel free to reach out! I'm excited to bring my diverse skills to a software development role and continue growing in the field.</p>
             </div>
         </div>
         <Footer/>
